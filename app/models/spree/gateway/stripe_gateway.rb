@@ -1,5 +1,5 @@
 module Spree
-  class Gateway::Stripe < Gateway
+  class Gateway::StripeGateway < Gateway
     preference :login, :string
     
     attr_accessible :preferred_login
